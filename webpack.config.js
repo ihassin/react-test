@@ -2,13 +2,17 @@ var webpack = require('webpack');
 
 module.exports = {
     entry: [
-        "./checkbox-with-label.jsx",
+        "./index.jsx",
         "./index.html",
     ],
 
     output: {
         filename: "index.js",
         path: __dirname + "/dist",
+    },
+
+    resolve: {
+        extensions: ['', '.js', '.jsx']
     },
 
     module: {

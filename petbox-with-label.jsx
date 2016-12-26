@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default class CheckboxWithLabel extends React.Component {
+export default class PetboxWithLabel extends React.Component {
 
     constructor(props) {
         super(props);

@@ -4,7 +4,8 @@
   "description": "Fragile Agile JS",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start": "webpack-dev-server --progress --inline"
   },
   "author": "@itababy",
   "license": "ISC",
@@ -24,6 +25,7 @@
     "mocha": "^3.2.0",
     "react-addons-test-utils": "^15.4.1",
     "react-test-renderer": "^15.4.1",
-    "webpack": "^1.14.0"
+    "webpack": "^1.14.0",
+    "webpack-dev-server": "^1.16.2"
   }
 }
