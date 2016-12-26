@@ -5,7 +5,7 @@ import PetboxWithLabel from './petbox-with-label';
 const checkBox = <CheckboxWithLabel labelOn="On" labelOff="Off" />;
 const petBox = <PetboxWithLabel labelOn="Mouse" labelOff="Cat" />;
 
-export const both = (
+const Both = () => (
     <div>
         {checkBox}
         <br/>
@@ -13,3 +13,4 @@ export const both = (
     </div>
 );
 
+export default Both;

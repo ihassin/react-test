@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import {both} from './both';
+import Both from './src/both';
 
 ReactDOM.render(
-    both,
+    <Both/>,
     document.getElementById('root')
 );
